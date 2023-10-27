@@ -8,70 +8,28 @@ Carte pour votre profil, carte pour vos référentiels GitHub.
 
 **Nouveau thème disponible**
 
-![Thème des Cartes](https://cloud.githubusercontent.com/assets/290496/5024776/7267e9c8-6b4a-11e4-9513-472b60b955b1.png)
-
+![Thème des Cartes](https://media.discordapp.net/attachments/985824415449243648/1167425226611638345/image.png?ex=654e1477&is=653b9f77&hm=af3de64f5c67b14e01452c1e553a6111f556c1e2c1d71fba23dec3f1687eb111&=)
 
 ## Utilisation
 
-Les cartes sont hébergées via les pages GitHub.
+La carte doit être heberger sur le web, c'est un index.html simple, de base.
 
-Visitez le générateur de cartes : http://lab.lepture.com/github-cards/
+### Personnalisation
 
-### widget.js
+Vous avez juste à modifier Les noms, Les liens et Les images pour rendre sa a votre sauce !
 
-Vous pouvez inclure le script `widget.js`, il créera les iframes intégrées
-pour toi.
+Contenue :
 
-Example of user card:
+- Pseudo 
+- Photo de Profile
+- 4 Réseaux Sociaux
+- Serveur Discord
+- Certification
 
-```html
-<div class="github-card" data-user="lepture"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-```
+## Prise en charge 
 
-Example of repo card:
-
-```html
-<div class="github-card" data-user="lepture" data-repo="github-cards"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-```
-
-Data parameters:
-
-- user: GitHub username
-- repo: GitHub repository name
-- width: Embed width you want, default is 400
-- height: Embed height you want, default is 200
-- theme: GitHub card theme, default is `default`
-- target: If you want to open links in new tab, set it to `blank`
-- client_id: Your app client_id, optional
-- client_secret: Your app client_secret, optional
-
-You can also define in meta tags:
-
-```html
-<meta name="gc:base" content="http://lab.lepture.com/github-cards/">
-<meta name="gc:theme" content="medium">
-<meta name="gc:client-id" content="client id string">
-<meta name="gc:client-secret" content="client secret string">
-```
-
-## Limitation
-
-There are some limitations for github cards.
-
-1. GitHub API rate limitation
-2. No interaction. You can't actually follow someone
-
-## SSL support
-
-GitHub Cards is available on jsdelivr now. Use widget hosted on jsdelivr:
-
-```html
-<div class="github-card" data-user="lepture" data-repo="github-cards"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-```
+Les cartes sont compatible pour les incrustées dans vos site en HTML !
 
 ## Contribution
 
-This project is under the BSD License.
+Ce projet est sous licence Furio360.
